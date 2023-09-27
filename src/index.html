@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Note App</h1>
+    </header>
+
+    <div class="container">
+      <form class="form" action="/add" method="post">
+        <input type="text" class="title" placeholder="Title" />
+        <input type="text" class="content" placeholder="Content" />
+        <button type="submit">+</button>
+      </form>
+    </div>
+    <ul
+      class="notes"
+      style="
+        display: grid;
+        grid-template-columns: repeat(4);
+        column-gap: 30px;
+        justify-content: space-between;
+      "
+    >
+      <!-- Dữ liệu ghi chú sẽ được lưu vào đây -->
+    </ul>
+  </body>
+  <script src="/dist/index.js"></script>
+</html>

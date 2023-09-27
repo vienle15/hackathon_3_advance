@@ -1,0 +1,12 @@
+{
+  "name": "module_02_js230726",
+  "version": "1.0.0",
+  "description": "Dự án đầu tiên TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch -w"
+  },
+  "author": "VienLT",
+  "license": "ISC"
+}
