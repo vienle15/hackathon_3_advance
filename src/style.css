@@ -66,6 +66,9 @@ header {
   height: 25px;
   background-color: #da7c1d;
   border-radius: 50%;
+  position: absolute;
+  bottom: 600px;
+  left: 880px;
 }
 .notes li .content {
   font-size: 14px;
@@ -77,3 +80,12 @@ li button {
   border: 1px solid salmon;
   display: block;
 }
+/* .add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #29b6f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+} */
